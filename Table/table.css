@@ -1,0 +1,8 @@
+#one{
+
+    border: 1px solid black;
+}
+#to{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
