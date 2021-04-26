@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="exp3.css">
+      <style>
+          
+        body {
+  background-color: lightcyan;
+}
+
+      </style>
+    </head>
+    <body>
+      <h1 style="text-align: center; color: indigo;" >HTML FORM</h1>
+      <form>
+          <h3>Name:</h3>
+          <label>First Name:</label><br>
+          <input type="text"><br>
+          <lable>Last Name:</lable><br>
+          <input type="text"><br>
+          <h3>Gender:</h3>
+          <input type="radio" id="male" name="gender" value="male">
+          <label for="male">Male</label><br>
+          <input type="radio" id="female" name="gender" value="female">
+          <label for="male">Female</label><br>
+          <input type="radio" id="other" name="gender" value="other">
+          <label for="other">Other</label><br>
+          <h3>Branch:</h3>
+          <input type="checkbox" id="branch1" name="Computer Engineering ">
+          <label for="branch1">Computer Engineering</label><br>
+          <input type="checkbox" id="branch2" name="IT Engineering ">
+          <label for="branch2">IT Engineering</label><br>
+          <input type="checkbox" id="branch3" name="EC Engineering ">
+          <label for="branch3">EC Engineering</label><br>
+          <input type="checkbox" id="branch4" name="Electrical Engineering ">
+          <label for="branch4">Electrical Engineering</label><br>
+          <input type="checkbox" id="branch5" name="Civil Engineering ">
+          <label for="branch5">Civil Engineering</label><br>
+          <input type="checkbox" id="branch6" name="Mechanical Engineering ">
+          <label for="branch6">Mechanical Engineering</label><br>
+          <input type="checkbox" id="branch7" name="Mechatronics Engineering ">
+          <label for="branch7">Mechatronics Engineering</label><br>
+          <h3>Year:</h3>
+          <label for="year">choose a year:</label>
+          <select id="year" name="year" size="1">
+            <option value="1st">1st</option>
+            <option value="2nd">2nd</option>
+            <option value="3rd">3rd</option>
+            <option value="4th">4th</option>
+          </select>
+          <h3>Enrollment No.:</h3>
+          <label for="enno">Id no.</label><br>
+          <input type="text" id="en" name="en" size="12"><br>
+          <h3>Birth Date:</h3>
+          <lable for="bday">Birth Date :</lable>
+          <input type="date" id="bday" name="bday"><br>
+          <h3>Gmail:</h3>
+          <label for="gmail">Gmail:</label>
+          <input type="email" id="gmail" name="gmail"><br>
+          <h3>Contact No.:</h3>
+          <label for="cono">Contact No.:</label>
+          <input type="text" id="cono" name="cono" maxlength="10" size="10"><br>
+          <h3>Upload Photo:</h3>
+          <label for="myfile">Select a file:</label>
+          <input type="file" id="myfile" name="myfile"><br><br>
+
+          
+
+          <input type="submit" value="Submit">
+          <input type="reset">
+      </form>
+    </body>
+</html>
